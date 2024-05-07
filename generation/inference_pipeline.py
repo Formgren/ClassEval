@@ -5,6 +5,9 @@ from tqdm import tqdm
 from inference_util import InferenceUtil, ModelName, GenerationStrategy
 import os
 import openai
+from openai import OpenAI
+
+client = OpenAI(api_key=os.environ['OPEN_AI_KEY'])
 
 class InferencePipeline:
 
@@ -100,29 +103,25 @@ class InferencePipeline:
 
     def model_generate(self, prompt):
         if self.model_name == ModelName.GPT_3_5.value or self.model_name == ModelName.GPT_4.value:
-            openai.api_key = self.openai_key
-            openai.api_base = self.openai_base
+            # TODO: The 'openai.api_base' option isn't read in the client API. You will need to pass it when you instantiate the client, e.g. 'OpenAI(base_url=self.openai_base)'
+            # openai.api_base = self.openai_base
             if self.model_name == ModelName.GPT_3_5.value:
-                response = openai.ChatCompletion.create(
-                    max_tokens=self.max_length,
-                    temperature=0 if self.greedy == 1 else self.temperature,
-                    model="gpt-3.5-turbo",
-                    messages=[
-                        {"role": "system", "content": "You are a helpful assistant."},
-                        {"role": "user", "content": prompt}
-                    ]
-                )
+                response = client.chat.completions.create(max_tokens=self.max_length,
+                temperature=0 if self.greedy == 1 else self.temperature,
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": prompt}
+                ])
             elif self.model_name == ModelName.GPT_4.value:
-                response = openai.ChatCompletion.create(
-                    max_tokens=self.max_length,
-                    temperature=0 if self.greedy == 1 else self.temperature,
-                    model="gpt-4",
-                    messages=[
-                        {"role": "system", "content": "You are a helpful assistant."},
-                        {"role": "user", "content": prompt}
-                    ]
-                )
-            outputs = response.choices[0]["message"]["content"]
+                response = client.chat.completions.create(max_tokens=self.max_length,
+                temperature=0 if self.greedy == 1 else self.temperature,
+                model="gpt-4",
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": prompt}
+                ])
+            outputs = response.choices[0].message.content
         elif self.model_name == ModelName.Gemini_Pro.value:
             prompt_parts = [prompt]
             response = self.model.generate_content(prompt_parts)
@@ -248,7 +247,7 @@ class InferencePipeline:
 
                         cont['predict'].append(pred)
                         cont['raw_output'].append(raw_output)
-                        
+
                     except Exception as e:
                         print(e)
                         print("IDX: ", cont['task_id'])
@@ -286,7 +285,7 @@ class InferencePipeline:
                             pred.append(outputs)
 
                         cont['predict'].append(pred)
-                        
+
                     except Exception as e:
                         print(e)
                         print("IDX: ", cont['task_id'])
@@ -297,7 +296,7 @@ class InferencePipeline:
         else:
             print("Unknown Generation Strategy")
             return
-        
+
         print("error_task_id_list: ", error_task_id_list)
         self.post_process(result)
         self.save_result(result)
