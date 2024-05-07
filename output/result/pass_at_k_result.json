@@ -272,6 +272,12 @@
             "fun_partial_success": 0.5948103792415169,
             "fun_success": 0.5169660678642715
         },
+        "GPT_3_5_all": {
+            "class_partial_success": 0.19,
+            "class_success": 0.11,
+            "fun_partial_success": 0.28286852589641437,
+            "fun_success": 0.22111553784860558
+        },
         "Incoder_C(greedy)": {
             "class_partial_success": 0.08,
             "class_success": 0.04,
