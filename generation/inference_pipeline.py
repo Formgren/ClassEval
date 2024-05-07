@@ -7,7 +7,7 @@ import os
 import openai
 from openai import OpenAI
 
-client = OpenAI(api_key=self.openai_key)
+client = OpenAI(api_key=os.environ['OPEN_AI_KEY'])
 
 class InferencePipeline:
 
