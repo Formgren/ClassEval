@@ -278,6 +278,18 @@
             "fun_partial_success": 0.2848605577689243,
             "fun_success": 0.2250996015936255
         },
+        "GPT_3_5_iteration_2": {
+            "class_partial_success": 0.18,
+            "class_success": 0.11,
+            "fun_partial_success": 0.2549800796812749,
+            "fun_success": 0.199203187250996
+        },
+        "GPT_3_5_iteration_2_new_prompt": {
+            "class_partial_success": 0.4,
+            "class_success": 0.2,
+            "fun_partial_success": 0.5976095617529881,
+            "fun_success": 0.42231075697211157
+        },
         "Incoder_C(greedy)": {
             "class_partial_success": 0.08,
             "class_success": 0.04,

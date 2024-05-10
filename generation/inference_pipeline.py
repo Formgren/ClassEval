@@ -154,9 +154,11 @@ class InferencePipeline:
             else:
                 class_name = info['class_name']
                 skeleton = info['skeleton']
-                instruction = f"Please complete the class {class_name} in the following code."
-                instruction = instruction + '\n' + skeleton
-                prompt = InferenceUtil.generate_prompt(instruction, self.model_name)
+                instruction = f"Complete the following code. Use ´´´python to put the completed code, including the imports, in markdown quotes: \n{skeleton}"
+                prompt = instruction
+                #instruction = instruction + '\n' + skeleton
+                #prompt = InferenceUtil.generate_prompt(instruction, self.model_name)
+                
 
         elif strategy == GenerationStrategy.Incremental:
             if self.model_name == ModelName.PolyCoder.value or self.model_name == ModelName.SantaCoder.value:
