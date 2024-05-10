@@ -837,21 +837,21 @@
         "ClassEval_22": {
             "ClassRegistrationSystemTest": {
                 "EachTestResult": [
-                    "fail"
-                ],
-                "error": 0,
-                "fail": 1,
-                "partial_success": 0,
-                "success": 0
-            },
-            "ClassRegistrationSystemTestGetMajor": {
-                "EachTestResult": [
-                    "partial_success"
+                    "success"
                 ],
                 "error": 0,
                 "fail": 0,
-                "partial_success": 1,
-                "success": 0
+                "partial_success": 0,
+                "success": 1
+            },
+            "ClassRegistrationSystemTestGetMajor": {
+                "EachTestResult": [
+                    "success"
+                ],
+                "error": 0,
+                "fail": 0,
+                "partial_success": 0,
+                "success": 1
             },
             "ClassRegistrationSystemTestGetStudent": {
                 "EachTestResult": [
@@ -891,11 +891,11 @@
             },
             "TestClass": {
                 "ClassEachTestResult": [
-                    "class_fail"
+                    "class_success"
                 ],
-                "class_fail": 1,
+                "class_fail": 0,
                 "class_partial_success": 0,
-                "class_success": 0
+                "class_success": 1
             }
         },
         "ClassEval_23": {
