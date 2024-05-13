@@ -18,6 +18,12 @@
             "fun_partial_success": 0.17485029940119753,
             "fun_success": 0.0770459081836327
         },
+        "ClassEval_wizardcoder": {
+            "class_partial_success": 0.04000000000000001,
+            "class_success": 0.022,
+            "fun_partial_success": 0.07888446215139447,
+            "fun_success": 0.05418326693227079
+        },
         "CodeGeeX_C": {
             "class_partial_success": 0.07,
             "class_success": 0.038,
@@ -436,6 +442,12 @@
             "fun_partial_success": 0.25229540918163684,
             "fun_success": 0.10978043912175649
         },
+        "ClassEval_wizardcoder": {
+            "class_partial_success": 0.11999999999999997,
+            "class_success": 0.06599999999999999,
+            "fun_partial_success": 0.23665338645418244,
+            "fun_success": 0.16254980079681264
+        },
         "CodeGeeX_C": {
             "class_partial_success": 0.088,
             "class_success": 0.046,
@@ -635,6 +647,12 @@
             "class_success": 0.02,
             "fun_partial_success": 0.281437125748503,
             "fun_success": 0.11976047904191617
+        },
+        "ClassEval_wizardcoder": {
+            "class_partial_success": 0.2,
+            "class_success": 0.11,
+            "fun_partial_success": 0.3944223107569721,
+            "fun_success": 0.27091633466135456
         },
         "CodeGeeX_C": {
             "class_partial_success": 0.1,

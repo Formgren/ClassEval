@@ -6,7 +6,9 @@ from inference_util import InferenceUtil, ModelName, GenerationStrategy
 import os
 import openai
 from openai import OpenAI
+from dotenv import load_dotenv
 
+load_dotenv()
 client = OpenAI(api_key=os.environ['OPEN_AI_KEY'])
 
 class InferencePipeline:
