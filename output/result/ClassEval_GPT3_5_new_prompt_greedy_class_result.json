@@ -8,17 +8,17 @@
             },
             "AccessGatewayFilterTestFilter": {
                 "errors": 0,
-                "failures": 7,
+                "failures": 6,
                 "testsRun": 8
             },
             "AccessGatewayFilterTestGetJwtUser": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 4,
                 "testsRun": 5
             },
             "AccessGatewayFilterTestIsStartWith": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 2,
                 "testsRun": 5
             }
         }
@@ -28,59 +28,59 @@
             "AreaCalculatorTestCalculateAnnulusArea": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "AreaCalculatorTestCalculateCircleArea": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "AreaCalculatorTestCalculateCylinderArea": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "AreaCalculatorTestCalculateMain": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 1
             },
             "AreaCalculatorTestCalculateSectorArea": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "AreaCalculatorTestCalculateSphereArea": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             }
         }
     },
     "ClassEval_10": {
         "ClassEval_10_0": {
             "BinaryDataProcessorTestCalculateBinaryInfo": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "BinaryDataProcessorTestCleanNonBinaryChars": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "BinaryDataProcessorTestConvertToAscii": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "BinaryDataProcessorTestConvertToUtf8": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "BinaryDataProcessorTestMain": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             }
@@ -89,7 +89,7 @@
     "ClassEval_11": {
         "ClassEval_11_0": {
             "BitStatusUtilTestAdd": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
@@ -109,7 +109,7 @@
                 "testsRun": 1
             },
             "BitStatusUtilTestRemove": {
-                "errors": 2,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             }
@@ -118,22 +118,22 @@
     "ClassEval_12": {
         "ClassEval_12_0": {
             "BlackjackGameTestCalculateHandValue": {
-                "errors": 6,
+                "errors": 1,
                 "failures": 0,
                 "testsRun": 6
             },
             "BlackjackGameTestCheckWinner": {
-                "errors": 6,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 6
             },
             "BlackjackGameTestCreateDeck": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "BlackjackGameTestMain": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             }
@@ -153,7 +153,7 @@
             },
             "BookManagementTestRemoveBook": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 4,
                 "testsRun": 5
             },
             "BookManagementTestViewBookQuantity": {
@@ -181,12 +181,12 @@
                 "testsRun": 1
             },
             "BookManagementDBTestCreateTable": {
-                "errors": 2,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 2
             },
             "BookManagementDBTestRemoveBook": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             },
@@ -196,7 +196,7 @@
                 "testsRun": 1
             },
             "BookManagementDBTestSearchBooks": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             }
@@ -205,23 +205,23 @@
     "ClassEval_15": {
         "ClassEval_15_0": {
             "BoyerMooreSearchTestBadCharacterHeuristic": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "BoyerMooreSearchTestMain": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             },
             "BoyerMooreSearchTestMatchInPattern": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "BoyerMooreSearchTestMismatchInText": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 5
             }
         }
@@ -229,23 +229,23 @@
     "ClassEval_16": {
         "ClassEval_16_0": {
             "CalculatorTest": {
-                "errors": 1,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 1
             },
             "CalculatorTestApplyOperator": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "CalculatorTestCalculate": {
-                "errors": 8,
-                "failures": 0,
+                "errors": 0,
+                "failures": 7,
                 "testsRun": 8
             },
             "CalculatorTestPrecedence": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 3,
                 "testsRun": 5
             }
         }
@@ -255,37 +255,37 @@
             "CalendarTestAddEvent": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "CalendarTestGetAvailableSlots": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 5,
+                "testsRun": 5
             },
             "CalendarTestGetEvents": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 2
             },
             "CalendarTestGetUpcomingEvents": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 5,
+                "testsRun": 5
             },
             "CalendarTestIsAvailable": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "CalendarTestMain": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 1,
+                "testsRun": 1
             },
             "CalendarTestRemoveEvent": {
-                "errors": 0,
+                "errors": 1,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 6
             }
         }
     },
@@ -356,56 +356,56 @@
         "ClassEval_2_0": {
             "ArgumentParserTestAddArgument": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 5,
+                "testsRun": 5
             },
             "ArgumentParserTestConvertType": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 5,
+                "testsRun": 5
             },
             "ArgumentParserTestGetArgument": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 5,
+                "testsRun": 5
             },
             "ArgumentParserTestMain": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 1,
+                "testsRun": 1
             },
             "ArgumentParserTestParseArguments": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             }
         }
     },
     "ClassEval_20": {
         "ClassEval_20_0": {
             "ChatTestAddUser": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "ChatTestGetMessages": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "ChatTestMain": {
-                "errors": 2,
-                "failures": 0,
+                "errors": 0,
+                "failures": 2,
                 "testsRun": 2
             },
             "ChatTestRemoveUser": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "ChatTestSendMessage": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 5
             }
         }
@@ -444,32 +444,32 @@
             "ClassRegistrationSystemTest": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 1
             },
             "ClassRegistrationSystemTestGetMajor": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 1,
+                "testsRun": 3
             },
             "ClassRegistrationSystemTestGetStudent": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 4
             },
             "ClassRegistrationSystemTestPopularClass": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 1,
+                "testsRun": 2
             },
             "ClassRegistrationSystemTestRegisterClass": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 3
             },
             "ClassRegistrationSystemTestRegisterStudent": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 3
             }
         }
     },
@@ -481,13 +481,13 @@
                 "testsRun": 5
             },
             "CombinationCalculatorTestCountAll": {
-                "errors": 1,
-                "failures": 4,
+                "errors": 0,
+                "failures": 3,
                 "testsRun": 5
             },
             "CombinationCalculatorTestMain": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 0,
                 "testsRun": 1
             },
             "CombinationCalculatorTestSelect": {
@@ -502,7 +502,7 @@
             },
             "CombinationCalculatorTestSelectAll": {
                 "errors": 0,
-                "failures": 3,
+                "failures": 0,
                 "testsRun": 5
             }
         }
@@ -510,27 +510,27 @@
     "ClassEval_24": {
         "ClassEval_24_0": {
             "ComplexCalculatorTestAdd": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "ComplexCalculatorTestDivide": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "ComplexCalculatorTestMain": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             },
             "ComplexCalculatorTestMultiply": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "ComplexCalculatorTestSubtract": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             }
@@ -544,13 +544,13 @@
                 "testsRun": 5
             },
             "CookiesUtilTestLoadCookies": {
-                "errors": 1,
+                "errors": 6,
                 "failures": 0,
                 "testsRun": 6
             },
             "CookiesUtilTestMain": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 1,
                 "testsRun": 1
             },
             "CookiesUtilTestSaveCookies": {
@@ -568,22 +568,22 @@
     "ClassEval_26": {
         "ClassEval_26_0": {
             "CSVProcessorTestMain": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             },
             "CSVProcessorTestProcessCSVData": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "CSVProcessorTestReadCSV": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "CSVProcessorTestWriteCSV": {
-                "errors": 6,
+                "errors": 1,
                 "failures": 0,
                 "testsRun": 6
             }
@@ -593,7 +593,7 @@
         "ClassEval_27_0": {
             "CurrencyConverterTest": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 0,
                 "testsRun": 1
             },
             "CurrencyConverterTestAddCurrencyRate": {
@@ -602,8 +602,8 @@
                 "testsRun": 6
             },
             "CurrencyConverterTestConvert": {
-                "errors": 0,
-                "failures": 4,
+                "errors": 1,
+                "failures": 0,
                 "testsRun": 6
             },
             "CurrencyConverterTestGetSupportedCurrencies": {
@@ -621,51 +621,51 @@
     "ClassEval_28": {
         "ClassEval_28_0": {
             "DatabaseProcessorTest": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             },
             "DatabaseProcessorTestCreateTable": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "DatabaseProcessorTestDeteleFromDatabase": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "DatabaseProcessorTestInsertIntoDatabase": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "DatabaseProcessorTestSearchDatabase": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 3,
+                "testsRun": 5
             }
         }
     },
     "ClassEval_29": {
         "ClassEval_29_0": {
             "DataStatisticsTest": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             },
             "DataStatisticsTestMean": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "DataStatisticsTestMedian": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "DataStatisticsTestMode": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             }
@@ -700,16 +700,16 @@
             },
             "ArrangementCalculatorTestSelectAll": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 5,
+                "testsRun": 5
             }
         }
     },
     "ClassEval_30": {
         "ClassEval_30_0": {
             "DataStatistics2Test": {
-                "errors": 0,
-                "failures": 1,
+                "errors": 1,
+                "failures": 0,
                 "testsRun": 1
             },
             "DataStatistics2TestGetCorrelation": {
@@ -729,7 +729,7 @@
             },
             "DataStatistics2TestGetStdDeviation": {
                 "errors": 0,
-                "failures": 5,
+                "failures": 0,
                 "testsRun": 5
             },
             "DataStatistics2TestGetSum": {
@@ -747,13 +747,13 @@
     "ClassEval_31": {
         "ClassEval_31_0": {
             "DataStatistics4TestCorrelationCoefficient": {
-                "errors": 0,
-                "failures": 4,
+                "errors": 1,
+                "failures": 3,
                 "testsRun": 5
             },
             "DataStatistics4TestKurtosis": {
-                "errors": 1,
-                "failures": 4,
+                "errors": 5,
+                "failures": 0,
                 "testsRun": 5
             },
             "DataStatistics4TestMain": {
@@ -768,7 +768,7 @@
             },
             "DataStatistics4TestSkewness": {
                 "errors": 1,
-                "failures": 2,
+                "failures": 0,
                 "testsRun": 5
             }
         }
@@ -776,24 +776,24 @@
     "ClassEval_32": {
         "ClassEval_32_0": {
             "DecryptionUtilsTestCaesarDecipher": {
-                "errors": 7,
-                "failures": 0,
+                "errors": 0,
+                "failures": 2,
                 "testsRun": 7
             },
             "DecryptionUtilsTestMain": {
-                "errors": 1,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 1
             },
             "DecryptionUtilsTestRailFenceDecipher": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "DecryptionUtilsTestVigenereDecipher": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 6
             }
         }
     },
@@ -801,33 +801,33 @@
         "ClassEval_33_0": {
             "DiscountStrategyTest": {
                 "errors": 0,
-                "failures": 1,
-                "testsRun": 1
+                "failures": 0,
+                "testsRun": 0
             },
             "DiscountStrategyTestBulkItemPromo": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "DiscountStrategyTestDue": {
-                "errors": 4,
-                "failures": 1,
-                "testsRun": 5
+                "errors": 0,
+                "failures": 0,
+                "testsRun": 0
             },
             "DiscountStrategyTestFidelityPromo": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "DiscountStrategyTestLargeOrderPromo": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "DiscountStrategyTestTotal": {
                 "errors": 0,
-                "failures": 5,
-                "testsRun": 5
+                "failures": 0,
+                "testsRun": 0
             }
         }
     },
@@ -863,8 +863,8 @@
     "ClassEval_35": {
         "ClassEval_35_0": {
             "EightPuzzleTestFindBlank": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 2,
                 "testsRun": 5
             },
             "EightPuzzleTestGetPossibleMoves": {
@@ -873,13 +873,13 @@
                 "testsRun": 5
             },
             "EightPuzzleTestMove": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "EightPuzzleTestSolve": {
-                "errors": 6,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 6
             }
         }
@@ -892,17 +892,17 @@
                 "testsRun": 5
             },
             "EmailClientTestFetch": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "EmailClientTestGetOccupiedSize": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "EmailClientTestIsFullWithOneMoreEmail": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
@@ -912,7 +912,7 @@
                 "testsRun": 1
             },
             "EmailClientTestSendTo": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             }
@@ -922,22 +922,22 @@
         "ClassEval_37_0": {
             "EncryptionUtilsTestCaesarCipher": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 1,
                 "testsRun": 6
             },
             "EncryptionUtilsTestMain": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 0,
                 "testsRun": 1
             },
             "EncryptionUtilsTestRailFenceCipher": {
                 "errors": 0,
-                "failures": 5,
+                "failures": 0,
                 "testsRun": 6
             },
             "EncryptionUtilsTestVigenereCipher": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 2,
                 "testsRun": 5
             }
         }
@@ -970,27 +970,27 @@
         "ClassEval_39_0": {
             "ExpressionCalculatorTest": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 1,
+                "testsRun": 1
             },
             "ExpressionCalculatorTestCalculate": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 5,
+                "testsRun": 5
             },
             "ExpressionCalculatorTestCalculateMethod": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 6,
                 "testsRun": 7
             },
             "ExpressionCalculatorTestCompare": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 4,
                 "testsRun": 7
             },
             "ExpressionCalculatorTestIsOperator": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 4,
                 "testsRun": 5
             },
             "ExpressionCalculatorTestPrepare": {
@@ -1000,7 +1000,7 @@
             },
             "ExpressionCalculatorTestTransform": {
                 "errors": 0,
-                "failures": 2,
+                "failures": 6,
                 "testsRun": 6
             }
         }
@@ -1023,8 +1023,8 @@
                 "testsRun": 5
             },
             "AssessmentSystemTestGetCourseAverage": {
-                "errors": 1,
-                "failures": 0,
+                "errors": 0,
+                "failures": 3,
                 "testsRun": 5
             },
             "AssessmentSystemTestGetGPA": {
@@ -1034,12 +1034,12 @@
             },
             "AssessmentSystemTestGetTopStudent": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 4,
                 "testsRun": 5
             },
             "AssessmentSystemTestMain": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 1,
                 "testsRun": 1
             }
         }
@@ -1047,22 +1047,22 @@
     "ClassEval_40": {
         "ClassEval_40_0": {
             "FitnessTrackerTestCaculateCalorieIntake": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "FitnessTrackerTestConditionJudge": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "FitnessTrackerTestGetBMI": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "FitnessTrackerTestMain": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             }
@@ -1071,51 +1071,51 @@
     "ClassEval_41": {
         "ClassEval_41_0": {
             "GomokuGameTestCheckFiveInARow": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "GomokuGameTestCheckWinner": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 4,
+                "testsRun": 5
             },
             "GomokuGameTestMain": {
-                "errors": 1,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 1
             },
             "GomokuGameTestMakeMove": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 5,
+                "testsRun": 5
             }
         }
     },
     "ClassEval_42": {
         "ClassEval_42_0": {
             "HotelTestAvailableRooms": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "HotelTestBookRoom": {
-                "errors": 6,
-                "failures": 0,
+                "errors": 0,
+                "failures": 2,
                 "testsRun": 6
             },
             "HotelTestCheckIn": {
-                "errors": 6,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 6
             },
             "HotelTestCheckOut": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "HotelTestMain": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             }
@@ -1130,12 +1130,12 @@
             },
             "HRManagementSystemTestGetEmployee": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "HRManagementSystemTestListEmployees": {
                 "errors": 0,
-                "failures": 4,
+                "failures": 5,
                 "testsRun": 5
             },
             "HRManagementSystemTestMain": {
@@ -1145,12 +1145,12 @@
             },
             "HRManagementSystemTestRemoveEmployee": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "HRManagementSystemTestUpdateEmployee": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 6,
                 "testsRun": 6
             }
         }
@@ -1216,8 +1216,8 @@
     "ClassEval_46": {
         "ClassEval_46_0": {
             "InterpolationTestInterpolate1d": {
-                "errors": 7,
-                "failures": 0,
+                "errors": 6,
+                "failures": 1,
                 "testsRun": 7
             },
             "InterpolationTestInterpolate2d": {
@@ -1235,22 +1235,22 @@
     "ClassEval_47": {
         "ClassEval_47_0": {
             "IPAddressTest": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             },
             "IPAddressTestGetBinary": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "IPAddressTestGetOctets": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "IPAddressTestIsValid": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             }
@@ -1283,13 +1283,13 @@
     "ClassEval_49": {
         "ClassEval_49_0": {
             "JobMarketplaceTestGetJobApplicants": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "JobMarketplaceTestMain": {
-                "errors": 1,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 1
             },
             "JobMarketplaceTestMatchesRequirements": {
@@ -1298,28 +1298,28 @@
                 "testsRun": 5
             },
             "JobMarketplaceTestPostJob": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "JobMarketplaceTestRemoveJob": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "JobMarketplaceTestSearchJobs": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "JobMarketplaceTestSubmitResume": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "JobMarketplaceTestWithdrawResume": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             }
         }
@@ -1327,18 +1327,18 @@
     "ClassEval_5": {
         "ClassEval_5_0": {
             "AutomaticGuitarSimulatorTest": {
-                "errors": 1,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 1
             },
             "AutomaticGuitarSimulatorTestDisplay": {
-                "errors": 2,
-                "failures": 3,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "AutomaticGuitarSimulatorTestInterpret": {
-                "errors": 5,
-                "failures": 4,
+                "errors": 0,
+                "failures": 8,
                 "testsRun": 9
             }
         }
@@ -1370,17 +1370,17 @@
     "ClassEval_51": {
         "ClassEval_51_0": {
             "KappaCalculatorTest": {
-                "errors": 1,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 1
             },
             "KappaCalculatorTestFleissKappa": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "KappaCalculatorTestKappa": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             }
@@ -1438,17 +1438,17 @@
             },
             "MahjongConnectTestHasPath": {
                 "errors": 0,
-                "failures": 2,
+                "failures": 6,
                 "testsRun": 6
             },
             "MahjongConnectTestIsGameOver": {
                 "errors": 0,
-                "failures": 4,
+                "failures": 5,
                 "testsRun": 5
             },
             "MahjongConnectTestIsValidMove": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 6,
                 "testsRun": 6
             },
             "MahjongConnectTestRemoveIcons": {
@@ -1461,18 +1461,18 @@
     "ClassEval_55": {
         "ClassEval_55_0": {
             "ManacherTestMain": {
-                "errors": 1,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 1
             },
             "ManacherTestPalindromicLength": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "ManacherTestPalindromicString": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             }
         }
@@ -1534,22 +1534,22 @@
         "ClassEval_58_0": {
             "MinesweeperGameTestCheckWon": {
                 "errors": 0,
-                "failures": 3,
+                "failures": 5,
                 "testsRun": 5
             },
             "MinesweeperGameTestGenerateMineSweeperMap": {
-                "errors": 0,
-                "failures": 5,
+                "errors": 5,
+                "failures": 0,
                 "testsRun": 5
             },
             "MinesweeperGameTestGeneratePlayerMap": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 5,
+                "testsRun": 5
             },
             "MinesweeperGameTestMain": {
-                "errors": 0,
-                "failures": 2,
+                "errors": 2,
+                "failures": 0,
                 "testsRun": 2
             },
             "MinesweeperGameTestSweep": {
@@ -1563,17 +1563,17 @@
         "ClassEval_59_0": {
             "MovieBookingSystemTestAddMovie": {
                 "errors": 0,
-                "failures": 4,
+                "failures": 5,
                 "testsRun": 5
             },
             "MovieBookingSystemTestAvailableMovies": {
                 "errors": 0,
-                "failures": 3,
+                "failures": 5,
                 "testsRun": 5
             },
             "MovieBookingSystemTestBookTicket": {
                 "errors": 0,
-                "failures": 2,
+                "failures": 5,
                 "testsRun": 5
             },
             "MovieBookingSystemTestMain": {
@@ -1587,7 +1587,7 @@
         "ClassEval_6_0": {
             "AvgPartitionTestGet": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 1,
                 "testsRun": 5
             },
             "AvgPartitionTestMain": {
@@ -1631,65 +1631,65 @@
             "MusicPlayerTestAddSong": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "MusicPlayerTestMain": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 1
+                "testsRun": 0
             },
             "MusicPlayerTestPlay": {
                 "errors": 0,
-                "failures": 2,
-                "testsRun": 5
+                "failures": 0,
+                "testsRun": 0
             },
             "MusicPlayerTestPreviousSong": {
                 "errors": 0,
-                "failures": 2,
-                "testsRun": 5
+                "failures": 0,
+                "testsRun": 0
             },
             "MusicPlayerTestRemoveSong": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 6
+                "testsRun": 0
             },
             "MusicPlayerTestSetVolume": {
                 "errors": 0,
-                "failures": 3,
-                "testsRun": 5
+                "failures": 0,
+                "testsRun": 0
             },
             "MusicPlayerTestShuffle": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "MusicPlayerTestStop": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "MusicPlayerTestSwitchSong": {
                 "errors": 0,
-                "failures": 3,
-                "testsRun": 5
+                "failures": 0,
+                "testsRun": 0
             }
         }
     },
     "ClassEval_62": {
         "ClassEval_62_0": {
             "NLPDataProcessorTestConstruct": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             },
             "NLPDataProcessorTestProcess": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "NLPDataProcessorTestRemove": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 5
             }
         }
@@ -1703,12 +1703,12 @@
             },
             "NLPDataProcessorTestProcess": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 1,
                 "testsRun": 6
             },
             "NLPDataProcessorTestProcessData": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 3,
                 "testsRun": 5
             }
         }
@@ -1761,17 +1761,17 @@
             },
             "NumberWordFormatterTestFormat": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 6,
+                "testsRun": 6
             },
             "NumberWordFormatterTestFormatString": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 6,
+                "testsRun": 6
             },
             "NumberWordFormatterTestParseMore": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 4,
                 "testsRun": 4
             },
             "NumberWordFormatterTestTransThree": {
@@ -1781,7 +1781,7 @@
             },
             "NumberWordFormatterTestTransTwo": {
                 "errors": 0,
-                "failures": 5,
+                "failures": 6,
                 "testsRun": 6
             }
         }
@@ -1795,12 +1795,12 @@
             },
             "NumericEntityUnescaperTestReplace": {
                 "errors": 0,
-                "failures": 10,
+                "failures": 5,
                 "testsRun": 11
             },
             "unescaperTest": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 0,
                 "testsRun": 1
             }
         }
@@ -1808,23 +1808,23 @@
     "ClassEval_67": {
         "ClassEval_67_0": {
             "OrderTest": {
-                "errors": 1,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 1
             },
             "OrderTestAddDish": {
-                "errors": 6,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 6
             },
             "OrderTestCalculateTotal": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "OrderTestCheckout": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 4,
                 "testsRun": 5
             }
         }
@@ -1832,7 +1832,7 @@
     "ClassEval_68": {
         "ClassEval_68_0": {
             "PageUtilTest": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             },
@@ -1847,7 +1847,7 @@
                 "testsRun": 5
             },
             "PageUtilTestSearch": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             }
@@ -1923,18 +1923,18 @@
     "ClassEval_71": {
         "ClassEval_71_0": {
             "PushBoxGameTestCheckWin": {
-                "errors": 2,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 2
             },
             "PushBoxGameTestInitGame": {
-                "errors": 7,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 7
             },
             "PushBoxGameTestMove": {
-                "errors": 7,
-                "failures": 0,
+                "errors": 0,
+                "failures": 3,
                 "testsRun": 7
             }
         }
@@ -1948,37 +1948,37 @@
             },
             "RegexUtilsTestExtractEmail": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "RegexUtilsTestFindall": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "RegexUtilsTestGenerateEmailPattern": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "RegexUtilsTestGeneratePhoneNumberPattern": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "RegexUtilsTestGenerateSplitSentencesPattern": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "RegexUtilsTestMatch": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "RegexUtilsTestSplit": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "RegexUtilsTestSplitSentences": {
@@ -1988,12 +1988,12 @@
             },
             "RegexUtilsTestSub": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "RegexUtilsTestValidatePhoneNumber": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 5,
                 "testsRun": 5
             }
         }
@@ -2001,33 +2001,33 @@
     "ClassEval_73": {
         "ClassEval_73_0": {
             "RPGCharacterTestAttack": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "RPGCharacterTestGainExp": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 4,
                 "testsRun": 5
             },
             "RPGCharacterTestHeal": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "RPGCharacterTestIsAlive": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "RPGCharacterTestLevelUp": {
-                "errors": 5,
-                "failures": 0,
+                "errors": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "RPGCharacterTestMain": {
-                "errors": 1,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 1
             }
         }
@@ -2036,60 +2036,60 @@
         "ClassEval_74_0": {
             "ServerTest": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 1,
+                "testsRun": 1
             },
             "ServerTestAddWhiteList": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "ServerTestDelWhiteList": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "ServerTestRecv": {
-                "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "errors": 2,
+                "failures": 2,
+                "testsRun": 5
             },
             "ServerTestSend": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 3,
+                "testsRun": 5
             },
             "ServerTestShow": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 1,
+                "testsRun": 5
             }
         }
     },
     "ClassEval_75": {
         "ClassEval_75_0": {
             "ShoppingCartTest": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             },
             "ShoppingCartTestAddItem": {
-                "errors": 6,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 6
             },
             "ShoppingCartTestRemoveItem": {
-                "errors": 6,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 6
             },
             "ShoppingCartTestTotalPrice": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "ShoppingCartTestViewItems": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             }
@@ -2100,32 +2100,32 @@
             "SignInSystemTestAddUser": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "SignInSystemTestAllNotSignedIn": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "SignInSystemTestAllSignedIn": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "SignInSystemTestCheckSignIn": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "SignInSystemTestMain": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 1
             },
             "SignInSystemTestSignIn": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             }
         }
     },
@@ -2133,28 +2133,28 @@
         "ClassEval_77_0": {
             "SnakeTest": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 1,
+                "testsRun": 1
             },
             "SnakeTestEatFood": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 5,
+                "testsRun": 5
             },
             "SnakeTestMove": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 4,
+                "testsRun": 5
             },
             "SnakeTestRandomFoodPosition": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "SnakeTestReset": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             }
         }
     },
@@ -2167,17 +2167,17 @@
             },
             "SplitSentenceTestCountWords": {
                 "errors": 0,
-                "failures": 3,
+                "failures": 1,
                 "testsRun": 5
             },
             "SplitSentenceTestProcessTextFile": {
                 "errors": 0,
-                "failures": 4,
+                "failures": 5,
                 "testsRun": 5
             },
             "SplitSentenceTestSplitSentences": {
                 "errors": 0,
-                "failures": 4,
+                "failures": 1,
                 "testsRun": 5
             }
         }
@@ -2185,37 +2185,37 @@
     "ClassEval_79": {
         "ClassEval_79_0": {
             "SQLGeneratorTestDelete": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "SQLGeneratorTestInsert": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "SQLGeneratorTestMain": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             },
             "SQLGeneratorTestSelect": {
-                "errors": 6,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 6
             },
             "SQLGeneratorTestSelectByAgeRange": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "SQLGeneratorTestSelectFemaleUnderAge": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "SQLGeneratorTestUpdate": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             }
@@ -2282,110 +2282,110 @@
     "ClassEval_81": {
         "ClassEval_81_0": {
             "Statistics3TestCorrelation": {
-                "errors": 0,
+                "errors": 2,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "Statistics3TestCorrelationMatrix": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 4,
+                "testsRun": 5
             },
             "Statistics3TestMain": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 1,
+                "testsRun": 1
             },
             "Statistics3TestMean": {
-                "errors": 0,
+                "errors": 1,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "Statistics3TestMedian": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "Statistics3TestMode": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "Statistics3TestStandardDeviation": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 2,
+                "testsRun": 5
             },
             "Statistics3TestZScore": {
-                "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "errors": 3,
+                "failures": 2,
+                "testsRun": 5
             }
         }
     },
     "ClassEval_82": {
         "ClassEval_82_0": {
             "StockPortfolioTrackerTestAddStock": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "StockPortfolioTrackerTestBuyStock": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "StockPortfolioTrackerTestCalculatePortfolioValue": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "StockPortfolioTrackerTestGetPortfolioSummary": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "StockPortfolioTrackerTestGetStockValue": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "StockPortfolioTrackerTestMain": {
-                "errors": 3,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 3
+                "testsRun": 0
             },
             "StockPortfolioTrackerTestRemoveStock": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "StockPortfolioTrackerTestSellStock": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             }
         }
     },
     "ClassEval_83": {
         "ClassEval_83_0": {
             "StudentDatabaseProcessorTest": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             },
             "StudentDatabaseProcessorTestDeleteStudentByName": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "StudentDatabaseProcessorTestInsertStudent": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             },
             "StudentDatabaseProcessorTestSearchStudentByName": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 5
             }
@@ -2424,38 +2424,38 @@
         "ClassEval_85_0": {
             "ThermostatTestAutoCheckConflict": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 1,
+                "testsRun": 5
             },
             "ThermostatTestAutoSetMode": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "ThermostatTestGetMode": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "ThermostatTestGetTargetTemperature": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "ThermostatTestMain": {
                 "errors": 0,
-                "failures": 0,
-                "testsRun": 0
+                "failures": 1,
+                "testsRun": 1
             },
             "ThermostatTestSetMode": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "ThermostatTestSetTargetTemperature": {
                 "errors": 0,
                 "failures": 0,
-                "testsRun": 0
+                "testsRun": 5
             },
             "ThermostatTestSimulateOperation": {
                 "errors": 0,
@@ -2478,12 +2478,12 @@
             },
             "TicTacToeTestMain": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 0,
                 "testsRun": 1
             },
             "TicTacToeTestMakeMove": {
                 "errors": 0,
-                "failures": 1,
+                "failures": 0,
                 "testsRun": 5
             }
         }
@@ -2541,7 +2541,7 @@
             },
             "TriCalculatorTestCos": {
                 "errors": 0,
-                "failures": 4,
+                "failures": 2,
                 "testsRun": 5
             },
             "TriCalculatorTestFactorial": {
@@ -2551,17 +2551,17 @@
             },
             "TriCalculatorTestSin": {
                 "errors": 0,
-                "failures": 3,
+                "failures": 2,
                 "testsRun": 5
             },
             "TriCalculatorTestTan": {
-                "errors": 1,
-                "failures": 3,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 5
             },
             "TriCalculatorTestTaylor": {
                 "errors": 0,
-                "failures": 4,
+                "failures": 0,
                 "testsRun": 5
             }
         }
@@ -2598,13 +2598,13 @@
                 "testsRun": 5
             },
             "BigNumCalculatorTestMain": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 0,
                 "testsRun": 1
             },
             "BigNumCalculatorTestMultiply": {
-                "errors": 4,
-                "failures": 2,
+                "errors": 0,
+                "failures": 0,
                 "testsRun": 6
             },
             "BigNumCalculatorTestSubtract": {
@@ -2627,17 +2627,17 @@
                 "testsRun": 5
             },
             "URLHandlerTestGetHost": {
-                "errors": 1,
-                "failures": 0,
+                "errors": 0,
+                "failures": 1,
                 "testsRun": 8
             },
             "URLHandlerTestGetPath": {
                 "errors": 0,
-                "failures": 6,
+                "failures": 3,
                 "testsRun": 6
             },
             "URLHandlerTestGetQueryParams": {
-                "errors": 1,
+                "errors": 0,
                 "failures": 5,
                 "testsRun": 6
             },
@@ -2667,7 +2667,7 @@
             },
             "UrlPathTestParse": {
                 "errors": 0,
-                "failures": 6,
+                "failures": 3,
                 "testsRun": 7
             }
         }
@@ -2733,34 +2733,34 @@
     "ClassEval_94": {
         "ClassEval_94_0": {
             "VendingMachineTestAddItem": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "VendingMachineTestDisplayItems": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "VendingMachineTestInsertCoin": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "VendingMachineTestMain": {
-                "errors": 2,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 2
+                "testsRun": 0
             },
             "VendingMachineTestPurchaseItem": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             },
             "VendingMachineTestRestockItem": {
-                "errors": 5,
+                "errors": 0,
                 "failures": 0,
-                "testsRun": 5
+                "testsRun": 0
             }
         }
     },
@@ -2768,37 +2768,37 @@
         "ClassEval_95_0": {
             "WarehouseTestAddProduct": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 6,
                 "testsRun": 6
             },
             "WarehouseTestChangeOrderStatus": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 3,
                 "testsRun": 5
             },
             "WarehouseTestCreateOrder": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 4,
                 "testsRun": 5
             },
             "WarehouseTestGetProductQuantity": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "WarehouseTestMain": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 1,
                 "testsRun": 1
             },
             "WarehouseTestTrackOrder": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 4,
                 "testsRun": 5
             },
             "WarehouseTestUpdateProductQuantity": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 4,
                 "testsRun": 5
             }
         }
@@ -2806,23 +2806,23 @@
     "ClassEval_96": {
         "ClassEval_96_0": {
             "WeatherSystemTestCelsiusToFahrenheit": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
                 "testsRun": 5
             },
             "WeatherSystemTestFahrenheitToCelsius": {
-                "errors": 0,
+                "errors": 5,
                 "failures": 0,
                 "testsRun": 5
             },
             "WeatherSystemTestMain": {
-                "errors": 0,
-                "failures": 1,
+                "errors": 1,
+                "failures": 0,
                 "testsRun": 1
             },
             "WeatherSystemTestQuery": {
-                "errors": 1,
-                "failures": 1,
+                "errors": 0,
+                "failures": 3,
                 "testsRun": 6
             },
             "WeatherSystemTestSetCity": {
@@ -2845,7 +2845,7 @@
                 "testsRun": 6
             },
             "Words2NumbersTestText2Int": {
-                "errors": 3,
+                "errors": 1,
                 "failures": 0,
                 "testsRun": 6
             }
@@ -2855,7 +2855,7 @@
         "ClassEval_98_0": {
             "XMLProcessorTest": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 1,
                 "testsRun": 1
             },
             "XMLProcessorTestFindElement": {
@@ -2865,7 +2865,7 @@
             },
             "XMLProcessorTestProcessXmlData": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 5,
                 "testsRun": 5
             },
             "XMLProcessorTestReadXml": {
@@ -2884,12 +2884,12 @@
         "ClassEval_99_0": {
             "ZipFileProcessorTest": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 1,
                 "testsRun": 1
             },
             "ZipFileProcessorTestCreateZipFile": {
                 "errors": 0,
-                "failures": 0,
+                "failures": 6,
                 "testsRun": 6
             },
             "ZipFileProcessorTestExtractAll": {
