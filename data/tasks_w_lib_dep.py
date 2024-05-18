@@ -7,9 +7,9 @@ with open('ClassEval_data.json') as f:
 # Filter tasks with library dependencies
 tasks_with_lib_dependencies = [task for task in data if any(method['dependencies']['lib_dependencies'] for method in task['methods_info'])]
 
-# Write tasks with library dependencies to a new JSON file
-with open('tasks_with_lib_dependencies.json', 'w') as f:
-    json.dump(tasks_with_lib_dependencies, f)
+# # Write tasks with library dependencies to a new JSON file
+# with open('tasks_with_lib_dependencies.json', 'w') as f:
+#     json.dump(tasks_with_lib_dependencies, f)
 
 # Print tasks and their methods with library dependencies
 for task in tasks_with_lib_dependencies:
