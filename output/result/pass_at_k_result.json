@@ -24,6 +24,12 @@
             "fun_partial_success": 0.12350597609561821,
             "fun_success": 0.08804780876494041
         },
+        "ClassEval_GPT3_5_last_gen": {
+            "class_partial_success": 0.06600000000000003,
+            "class_success": 0.03800000000000001,
+            "fun_partial_success": 0.10478087649402432,
+            "fun_success": 0.07410358565737049
+        },
         "ClassEval_wizardcoder": {
             "class_partial_success": 0.04000000000000001,
             "class_success": 0.022,
@@ -472,6 +478,12 @@
             "fun_partial_success": 0.3705179282868505,
             "fun_success": 0.2641434262948196
         },
+        "ClassEval_GPT3_5_last_gen": {
+            "class_partial_success": 0.19800000000000004,
+            "class_success": 0.11399999999999996,
+            "fun_partial_success": 0.31434262948207015,
+            "fun_success": 0.22231075697211086
+        },
         "ClassEval_wizardcoder": {
             "class_partial_success": 0.11999999999999997,
             "class_success": 0.06599999999999999,
@@ -683,6 +695,12 @@
             "class_success": 0.21,
             "fun_partial_success": 0.6175298804780877,
             "fun_success": 0.4402390438247012
+        },
+        "ClassEval_GPT3_5_last_gen": {
+            "class_partial_success": 0.33,
+            "class_success": 0.19,
+            "fun_partial_success": 0.5239043824701195,
+            "fun_success": 0.3705179282868526
         },
         "ClassEval_wizardcoder": {
             "class_partial_success": 0.2,
